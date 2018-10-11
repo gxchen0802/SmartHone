@@ -1,0 +1,214 @@
+@charset "utf-8";
+// ================  字体定义  ============= 
+//微软雅黑
+@font-yahei: Microsoft YaHei, '\5fae\8f6f\96c5\9ed1';
+//华文系黑
+@font-STXihei: STXihei, '\534e\6587\7ec6\9ed1';
+//宋体
+@font-simsun: SimSun, '\5b8b\4f53';
+// ================  字体大小  =============
+//默认字体大小
+@font-size-base: 14px;
+
+// ================  全局混合属性  =============
+//inline-block IE兼容
+.inline-block() {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+//边框圆角
+.border-radius(@radius) {
+	//Gecko
+	-moz-border-radius: @radius;
+	//Webkit
+	-webkit-border-radius: @radius;
+	border-radius: @radius;
+}
+//  ================  全局定义重写  =============
+body {
+	font-family: Helvetica, Verdana, Arial, @font-yahei, @font-STXihei, @font-simsun, sans-serif;
+	font-size: @font-size-base;
+}
+// modal增加一个存放提示信息的容器的样式
+#smart-hong-tips {
+	top: 20%;
+	width: 300px;
+	margin-left: -150px;
+	.border-radius(10px);
+}
+#smart-hong-confirm {
+	.modal-footer {
+		background-color: #f5f5f5;
+	}
+}
+.modal-tips, .modal-confirm {
+	padding: 20px;
+	text-align: center;
+}
+.hide {
+	display: none;
+}
+.navbar .brand {
+	height: 25px;
+	width: 100px;
+	background: url("../images/logo.png") no-repeat left center scroll;
+	margin: 0;
+}
+.iframeStyle {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: block;
+	float: left;
+}
+.iframe-content {
+	margin: 0;
+
+	.page-content {
+		overflow-y: auto;
+	}
+}
+.toolbar {
+	width: 100%;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.search-bar {
+	width: 100%;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border-bottom: 1px solid #e2e2e2;
+	position: relative;
+	z-index: 1;
+
+	.form-group {
+		float: left;
+		margin: 0 10px 10px 0;
+		list-style-type: none;
+	}
+	.search-icon {
+		width: 20px;
+		height: 20px;
+		font-size: 18px;
+		.inline-block();
+		position: absolute;
+		right: 100px;
+		top: 5px;
+		cursor: pointer;
+		visibility: hidden;
+	}
+	ul {
+		margin: 0;
+
+		&.pull-left {
+			margin-right: 120px;
+			overflow: hidden;
+			height: auto;
+		}
+		&.right-btn {
+			right: 0;
+			top: 0;
+			position: absolute;
+			width: 85px;
+
+			.form-group {
+				margin: 0 0 10px 0;
+			}
+			.btn {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+.table-con {
+	.table-bg {
+		display: none;
+		background: #999;
+		filter: alpha(opacity=50);
+		-moz-opacity: 0.5;
+		-khtml-opacity: 0.5;
+		opacity: 0.5;
+		position: absolute;
+		z-index: 100;
+	}
+	.inside-edit {
+		display: none;
+		position: absolute;
+		z-index: 101;
+		margin: 0;
+
+		.no-ch {
+			display: block;
+			width: 16px;
+			height: 21px;
+		}
+		.btn {
+			margin-right: 5px;
+		}
+	}
+	&.onEdit {
+		.table-bg {
+			display: block;
+		}
+		.inside-edit {
+			display: table;
+		}
+	}
+}
+.minor-container {
+	position: static;
+}
+.main-container {
+	overflow: hidden;
+}
+.menu-min {
+	.sidebar-shortcuts-large {
+		width: 180px;
+	}
+}
+.edit-box {
+	overflow: hidden;
+
+	input {
+		width: auto;
+		max-width: 75%;
+	}
+}
+#listTable {
+	th {
+		&[class*=sort] {
+			cursor: pointer
+		}
+		&[class*=sort]:after {
+			display: inline-block;
+			color: #555;
+			font-family: FontAwesome;
+			font-size: 13px;
+			font-weight: normal;
+			float: right;
+			margin-right: 4px;
+			position: relative
+		}
+		&.sort-none:after {
+			content: "\f0dc";
+		}
+		&.sort-desc:after {
+			content: "\f0dd";
+			top: -6px
+		}
+		&.sort-asc:after {
+			content: "\f0de";
+			top: 4px
+		}
+		&.sort-disabled {
+			cursor: inherit
+		}
+		&.sort-disabled:after {
+			display: none
+		}
+	}
+}

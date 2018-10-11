@@ -1,0 +1,173 @@
+@charset "utf-8";
+body {
+  font-family: Helvetica, Verdana, Arial, Microsoft YaHei, '\5fae\8f6f\96c5\9ed1', STXihei, '\534e\6587\7ec6\9ed1', SimSun, '\5b8b\4f53', sans-serif;
+  font-size: 14px;
+}
+#smart-hong-tips {
+  top: 20%;
+  width: 300px;
+  margin-left: -150px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#smart-hong-confirm .modal-footer {
+  background-color: #f5f5f5;
+}
+.modal-tips,
+.modal-confirm {
+  padding: 20px;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+.navbar .brand {
+  height: 25px;
+  width: 100px;
+  background: url("../images/logo.png") no-repeat left center scroll;
+  margin: 0;
+}
+.iframeStyle {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: block;
+  float: left;
+}
+.iframe-content {
+  margin: 0;
+}
+.iframe-content .page-content {
+  overflow-y: auto;
+}
+.toolbar {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.search-bar {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #e2e2e2;
+  position: relative;
+  z-index: 1;
+}
+.search-bar .form-group {
+  float: left;
+  margin: 0 10px 10px 0;
+  list-style-type: none;
+}
+.search-bar .search-icon {
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: absolute;
+  right: 100px;
+  top: 5px;
+  cursor: pointer;
+  visibility: hidden;
+}
+.search-bar ul {
+  margin: 0;
+}
+.search-bar ul.pull-left {
+  margin-right: 120px;
+  overflow: hidden;
+  height: auto;
+}
+.search-bar ul.right-btn {
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: 85px;
+}
+.search-bar ul.right-btn .form-group {
+  margin: 0 0 10px 0;
+}
+.search-bar ul.right-btn .btn {
+  margin-bottom: 10px;
+}
+.table-con .table-bg {
+  display: none;
+  background: #999;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 100;
+}
+.table-con .inside-edit {
+  display: none;
+  position: absolute;
+  z-index: 101;
+  margin: 0;
+}
+.table-con .inside-edit .no-ch {
+  display: block;
+  width: 16px;
+  height: 21px;
+}
+.table-con .inside-edit .btn {
+  margin-right: 5px;
+}
+.table-con.onEdit .table-bg {
+  display: block;
+}
+.table-con.onEdit .inside-edit {
+  display: table;
+}
+.minor-container {
+  position: static;
+}
+.main-container {
+  overflow: hidden;
+}
+.menu-min .sidebar-shortcuts-large {
+  width: 180px;
+}
+.edit-box {
+  overflow: hidden;
+}
+.edit-box input {
+  width: auto;
+  max-width: 75%;
+}
+#listTable th[class*=sort] {
+  cursor: pointer;
+}
+#listTable th[class*=sort]:after {
+  display: inline-block;
+  color: #555;
+  font-family: FontAwesome;
+  font-size: 13px;
+  font-weight: normal;
+  float: right;
+  margin-right: 4px;
+  position: relative;
+}
+#listTable th.sort-none:after {
+  content: "\f0dc";
+}
+#listTable th.sort-desc:after {
+  content: "\f0dd";
+  top: -6px;
+}
+#listTable th.sort-asc:after {
+  content: "\f0de";
+  top: 4px;
+}
+#listTable th.sort-disabled {
+  cursor: inherit;
+}
+#listTable th.sort-disabled:after {
+  display: none;
+}

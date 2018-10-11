@@ -1,0 +1,37 @@
+{
+	"result": "success",
+	"total": 5,
+	"list": [{
+		"desc": "请假申请",
+		"icon": "icon-comment",
+		"num": 5,
+		"color": "pink",
+		"url": "/notice/list"
+	}, {
+		"desc": "调班申请",
+		"icon": "icon-user",
+		"num": 5,
+		"color": "primary",
+		"url": "/notice/list"
+	}, {
+		"desc": "调班申请",
+		"icon": "icon-user",
+		"num": 5,
+		"color": "success",
+		"url": "/notice/list"
+	},{
+		"desc": "调班申请",
+		"icon": "icon-shopping-cart",
+		"num": 0,
+		"color": "info",
+		"url": "/notice/list"
+	},
+	{
+		"desc": "调班申请",
+		"icon": "icon-user",
+		"num": 5,
+		"color": "waring",
+		"url": "/notice/list"
+	}]
+
+}

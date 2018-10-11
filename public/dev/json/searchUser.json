@@ -1,0 +1,67 @@
+{
+	"result": "success",
+	"list": [{
+		"id": 1111,
+		"name": "菜单1",
+		"icon": "icon-desktop",
+		"url": "device/aaa",
+		"parent_id": 1,
+		"sub_menus": [{
+			"id": 22,
+			"name": "子菜单1",
+			"icon": "icon-hdd",
+			"url": "device/aaa",
+			"parent_id": 1,
+			"sub_menus": [{
+				"id": 221,
+				"name": "子菜单11",
+				"icon": "icon-camera",
+				"url": "device/aaa",
+				"parent_id": 1
+			}, {
+				"id": 222,
+				"name": "子菜单22",
+				"icon": "icon-camera",
+				"url": "device/aaa",
+				"parent_id": 1,
+				"sub_menus": [{
+					"id": 221,
+					"name": "子菜单11",
+					"icon": "icon-camera",
+					"url": "device/aaa",
+					"parent_id": 1
+				}, {
+					"id": 222,
+					"name": "子菜单22",
+					"icon": "icon-camera",
+					"url": "device/aaa",
+					"parent_id": 1
+				}, {
+					"id": 333,
+					"name": "子菜单33",
+					"icon": "icon-camera",
+					"url": "device/aaa",
+					"parent_id": 1
+				}]
+			}, {
+				"id": 333,
+				"name": "子菜单33",
+				"icon": "icon-camera",
+				"url": "device/aaa",
+				"parent_id": 1
+			}]
+		}, {
+			"id": 333,
+			"name": "子菜单2",
+			"icon": "icon-inbox",
+			"url": "device/aaa",
+			"parent_id": 1
+		}]
+	}, {
+		"id": 2222,
+		"name": "菜单3",
+		"icon": "icon-comments",
+		"url": "device/aaa",
+		"parent_id": 1
+	}]
+}

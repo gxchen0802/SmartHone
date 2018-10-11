@@ -1,0 +1,108 @@
+{
+	"result": "success",
+	"total": 100,
+	"page": 5,
+	"columnOption": {
+		"gradeName": [{
+			"name": "张三",
+			"value": "张三"
+		}, {
+			"name": "李四",
+			"value": "李四"
+		}, {
+			"name": "王五",
+			"value": "王五"
+		}, {
+			"name": "赵六",
+			"value": "赵六"
+		}, {
+			"name": "晨晨",
+			"value": "晨晨"
+		}, {
+			"name": "嘻嘻",
+			"value": "嘻嘻"
+		}]
+	},
+	"valueList": [{
+		"reName": "世界历史交锋历史交锋历史交锋历史交锋了",
+		"id": "11111",
+		"uuid": "7688565474764",
+		"schulstufeName": "张三",
+		"gradeName": "张三",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}, {
+		"reName": "张三",
+		"id": "22222",
+		"uuid": "1176885474764",
+		"schulstufeName": "张三",
+		"gradeName": "晨晨",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}, {
+		"reName": "张三",
+		"id": "33333",
+		"uuid": "7688547476444",
+		"schulstufeName": "张三",
+		"gradeName": "张三",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}, {
+		"reName": "张三",
+		"id": "4444",
+		"uuid": "4252536253252",
+		"schulstufeName": "张三",
+		"gradeName": "张三",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}, {
+		"reName": "张三",
+		"id": "55555",
+		"uuid": "76885474764",
+		"schulstufeName": "张三",
+		"gradeName": "张三",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}, {
+		"reName": "张三",
+		"id": "66666",
+		"uuid": "6645365",
+		"schulstufeName": "张三",
+		"gradeName": "张三",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}, {
+		"reName": "张三",
+		"id": "777777",
+		"uuid": "443434",
+		"schulstufeName": "张三",
+		"gradeName": "张三",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}, {
+		"reName": "张三",
+		"id": "888888",
+		"uuid": "888888",
+		"schulstufeName": "张三",
+		"gradeName": "张三",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}, {
+		"reName": "张三",
+		"id": "999999",
+		"uui": "t56566467",
+		"schulstufeName": "张三",
+		"gradeName": "张三",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}, {
+		"reName": "张三",
+		"id": "00000",
+		"uuid": "4stet645dst35",
+		"schulstufeName": "张三",
+		"gradeName": "张三",
+		"subjectName": "张三",
+		"createTime": "2015-08-16 12:11"
+	}],
+	"condition": []
+}
